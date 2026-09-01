@@ -21,7 +21,7 @@ A computer vision tool built with OpenCV that converts qualitative video footage
   * Frame-by-frame extraction of average pixel intensity (0-255 scale).
   * Real-time temporal monitoring and automated export of time-resolved intensity profiles to Excel.
 
-### 2. Advanced Signal Analyzer (`data_analyse.py`)
+### 2. Advanced Signal Analyzer (`data_analyser.py`)
 A comprehensive signal processing GUI that evaluates the raw temporal data to extract critical response variables for optimization algorithms.
 * **Features:**
   * Savitzky-Golay filtering to mitigate instrumental noise.
