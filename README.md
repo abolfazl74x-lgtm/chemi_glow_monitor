@@ -29,12 +29,15 @@ A comprehensive signal processing GUI that evaluates the raw temporal data to ex
   * Integration module utilizing trapezoidal numerical integration to calculate Total Area Under the Curve (AUC) and targeted high-emission windows.
   * Generates formatted output tables ready for integration with Design Expert (RSM split-plot designs).
 
-### 3. Kinetic Model Fitter (`gui_app.py` & `kinetic_analyzer.py`)
-A non-linear regression tool utilizing the SciPy optimization module to evaluate the reaction kinetics during both signal growth (build-up) and decay (recovery) phases.
-* **Features:**
-  * Fits data to multiple kinetic models: First-Order, Second-Order, Avrami, and Sigmoidal.
-  * Model selection governed by the Akaike Information Criterion (AIC) and Coefficient of Determination ($R^2$).
-  * Automatic calculation of specific kinetic parameters, including the half-life response time ($t_{1/2}$) and 95% confidence intervals derived from the covariance matrix.
+### 3. Kinetic Pro Analyzer (`Kinetic_Analyzer.py`)
+
+A unified, all-in-one non-linear regression tool with a modern GUI, utilizing the SciPy optimization module to evaluate the reaction kinetics during both signal growth (build-up) and decay (recovery) phases.
+
+- **Features:**
+  - Fits experimental data to an expanded library of kinetic models: **Zero-Order, First-Order, Second-Order, Avrami, Sigmoidal (Logistic), and Bi-exponential**.
+  - Robust model selection governed by the Akaike Information Criterion (AIC) and the Coefficient of Determination ($R^2$).
+  - Automatic calculation of critical kinetic parameters, including the specific half-life response time ($t_{50}$) and Origin-equivalent lifetimes.
+  - Automatically splits data, performs normalization, and exports comprehensive results along with high-resolution fitted plots into organized directories.
 
 ---
 
